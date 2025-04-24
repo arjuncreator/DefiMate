@@ -1,15 +1,68 @@
-# DeFiMate – Your Smart DeFi Sidekick
+# DeFiMate – Your AI-Powered DeFi Assistant  
+DeFiMate, built on PAAL AI, is a secure, intelligent agent designed to help users manage DeFi portfolios across chains with real-time insights, personalized strategies, and simple, conversational interaction.
 
-DeFiMate is an intelligent DeFi-focused AI agent built using the app.paal.ai platform. It empowers users to explore, analyze, and interact with the decentralized finance ecosystem through a conversational, easy-to-use interface.
+---
 
-Leveraging real-time data from public APIs like CoinGecko, DeFi Llama, and LlamaFi, DeFiMate helps users:
+## ⚡ Overview
 
-* Track token prices and market trends
-* Discover top-yield farming opportunities
-* Analyze protocol TVLs and stablecoin data
-* Monitor DEX volumes and daily top gainers/losers
-* Access historical token price charts
+DeFiMate streamlines your DeFi journey—track portfolios, find yield opportunities, assess token data, and learn smart DeFi practices. Just connect your wallet and ask.
 
-Instead of navigating complex dashboards, users can simply chat with DeFiMate to make informed decisions, spot investment opportunities, or monitor DeFi markets—all in one place.
+---
 
-By combining Paal's powerful agent tools with actionable DeFi data, DeFiMate simplifies DeFi and makes it more accessible for everyone—from crypto newbies to seasoned degens.
+## 🧠 Key Features
+
+### 1. Portfolio Tracking
+
+- Multi-chain wallet support  
+- Shows token balances, LPs, lending/borrowing positions  
+- Visual breakdown by protocol and USD value  
+- Function: getWalletPortfolio(walletAddresses)
+
+---
+
+### 2. Yield Optimization
+
+- Finds top APYs for assets like ETH, USDC  
+- Filters by risk level and chain preference  
+- Displays TVL, duration, risk level  
+- Function: getDefiData(asset, riskTolerance, preferredNetworks)
+
+---
+
+### 3. Token Insights
+
+- Real-time market data (price, volume, change)  
+- Great for quick decisions and research  
+- Function: getTokenIntel(tokenSymbol)
+
+---
+
+## 💬 Example Prompts
+
+- “What’s the best place to stake USDC today?”  
+- “Show my DeFi portfolio on Ethereum.”  
+- “How is the token GMX performing today?”  
+- “Suggest safe DeFi strategies with 5%+ APY.”
+
+---
+
+## 🧩 Memory Keys
+
+| Key | Purpose |
+|-----|---------|
+| walletAddresses | Linked wallets |
+| riskTolerance | Low / Medium / High |
+| preferredNetworks | Selected chains |
+| targetYield | Desired APY |
+| notificationPrefs | Alert settings |
+
+---
+
+## ✅ Why Use DeFiMate?
+
+- Cross-chain portfolio view  
+- Personalized yield suggestions  
+- Smart alerts and token research  
+- Beginner-friendly + pro insights
+
+> DeFiMate makes DeFi smarter, safer, and simpler.
